@@ -1,0 +1,26 @@
+{
+  "name": "server-boilerplate",
+  "version": "1.0.0",
+  "description": "Server Boilerplate",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umartunes/server-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "jest",
+    "express",
+    "body-parser"
+  ],
+  "author": "Lambda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umartunes/server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/umartunes/server-boilerplate#readme"
+}
