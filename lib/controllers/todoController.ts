@@ -8,7 +8,7 @@ export const addTodo = (req: Request, res: any, next: NextFunction) => {
     //if user provide null values
     if (!req.body.title || !req.body.place || !req.body.description) {
         res.t.message = "Please fill all the required fields"
-        return res.send(res.t);
+        return res.status(203).send(res.t);
     }
 
     // if user provide valid values then save todo
